@@ -518,6 +518,10 @@ public class BaasUser implements Parcelable {
         return status;
     }
 
+    public String getSocial() {
+        return social;
+    }
+
 // ------------------------ CANONICAL METHODS ------------------------
 
     public String toString() {
